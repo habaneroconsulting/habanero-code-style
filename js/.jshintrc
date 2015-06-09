@@ -63,18 +63,12 @@
 
 	// Environments
 	"browser"       : true,     // Web Browser (window, document, etc)
-	"couch"         : false,    // CouchDB
 	"devel"         : true,     // Development/debugging (alert, confirm, etc)
-	"dojo"          : false,    // Dojo Toolkit
 	"jquery"        : true,     // jQuery
-	"mootools"      : false,    // MooTools
-	"node"          : false,    // Node.js
-	"nonstandard"   : false,    // Widely adopted globals (escape, unescape, etc)
-	"prototypejs"   : false,    // Prototype and Scriptaculous
-	"rhino"         : false,    // Rhino
+	"node"          : true,     // Node.js
+	"nonstandard"   : true,     // Widely adopted globals (escape, unescape, etc)
 	"worker"        : false,    // Web Workers
 	"wsh"           : false,    // Windows Scripting Host
-	"yui"           : false,    // Yahoo User Interface
 
 	// Legacy
 	"nomen"         : false,    // true: Prohibit dangling `_` in variables
@@ -84,6 +78,8 @@
 
 	// Custom Globals
 	"globals": {
-		"$h"                    : true
+		"$h"                 : true,
+		"_spPageContextInfo" : true,
+		"SP"                 : true
 	}
 }

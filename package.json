@@ -1,18 +1,7 @@
 {
 	"name": "habanero-code-style",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "A collection of code style configuration files at Habanero Consulting Group",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/habaneroconsulting/habanero-code-style.git"
-	},
-	"keywords": [
-		"code",
-		"style"
-	],
 	"author": "Habanero Consulting Group",
 	"contributors": [
 		{
@@ -21,6 +10,13 @@
 			"url": "http://habaneroconsulting.com"
 		}
 	],
+	"keywords": [
+		"code style"
+	],
+	"homepage": "https://github.com/habaneroconsulting/habanero-code-style",
 	"license": "MIT",
-	"homepage": "https://github.com/habaneroconsulting/habanero-code-style#readme"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/habaneroconsulting/habanero-code-style.git"
+	}
 }
