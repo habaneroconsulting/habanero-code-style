@@ -80,6 +80,7 @@
 	"globals": {
 		"$h"                 : true,
 		"_spPageContextInfo" : true,
+		"Hcf"                : true,
 		"SP"                 : true,
 		"Srch"               : true
 	}
