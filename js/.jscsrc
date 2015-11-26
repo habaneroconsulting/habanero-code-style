@@ -12,6 +12,16 @@
 	"disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-", "~", "!"],
 	"disallowTrailingComma": true,
 	"disallowTrailingWhitespace": true,
+	"jsDoc": {
+		"checkAnnotations": "closurecompiler",
+		"checkParamNames": true,
+		"requireParamTypes": true,
+		"checkRedundantParams": true,
+		"checkReturnTypes": true,
+		"checkRedundantReturns": true,
+		"requireReturnTypes": true,
+		"checkRedundantAccess": true
+	},
 	"requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
 	"requireLineBreakAfterVariableAssignment": true,
 	"requirePaddingNewlinesBeforeKeywords": ["case", "do", "for", "if", "while", "return", "switch", "try"],
