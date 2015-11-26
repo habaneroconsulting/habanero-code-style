@@ -1,0 +1,17 @@
+linters:
+  ColorVariable:
+    enabled: false
+
+  Indentation:
+    enabled: true
+    allow_non_nested_indentation: false
+    character: tab
+    width: 1
+
+  NestingDepth:
+    ignore_parent_selectors: true
+    max_depth: 3
+
+  SelectorFormat:
+    enabled: true
+    convention: hyphenated_BEM # or 'strict_BEM', or 'hyphenated_BEM', or 'snake_case', or 'camel_case', or a regex pattern
