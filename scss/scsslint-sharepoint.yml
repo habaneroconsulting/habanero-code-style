@@ -8,6 +8,9 @@ linters:
   IdSelector:
     enabled: false
 
+  ImportantRule:
+    enabled: false
+
   Indentation:
     enabled: true
     allow_non_nested_indentation: false

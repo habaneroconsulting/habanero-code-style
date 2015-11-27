@@ -1,6 +1,6 @@
 {
 	"name": "habanero-code-style",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"description": "A collection of code style configuration files at Habanero Consulting Group",
 	"author": "Habanero Consulting Group",
 	"contributors": [
